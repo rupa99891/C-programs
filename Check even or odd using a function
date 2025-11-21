@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int isEven(int n) {
+    return n % 2 == 0;
+}
+
+int main() {
+    int n = 7;
+    if (isEven(n))
+        printf("Even");
+    else
+        printf("Odd");
+    return 0;
+}
